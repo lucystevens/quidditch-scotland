@@ -14,6 +14,14 @@ export class ArticleService {
    * date. Allows for articles to be scheduled to be published
    */
   getArticles(): Article[] {
-    return ARTICLES;.filter(article => article.date <= new Date());
+    return ARTICLES.filter(article => article.date <= new Date());
+  }
+
+  /**
+   * Gets the article with the given id
+   * @param id The id of the article to retrieve
+   */
+  getArticle(id: number): Article {
+    return ARTICLES.find(article => article.id === id);
   }
 }
