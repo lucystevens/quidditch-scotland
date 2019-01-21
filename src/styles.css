@@ -10,6 +10,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.main-container {
+    padding-top: 54px;
+    min-height: 86vh;
+}
+  
+@media (min-width: 992px) {
+    .main-container {
+        padding-top: 56px;
+    }
+}
+
 markdown table {
     border-spacing:0;
     border-collapse:collapse;
