@@ -1,6 +1,6 @@
 header.masthead {
     position: relative;
-    top: 2rem;
+    top: 3rem;
     background-color: #343a40;
     background: url("/assets/images/Social_Title.png") no-repeat center center;
     background-size: cover;
@@ -24,17 +24,11 @@ header.masthead h1 {
   
 @media (min-width: 768px) {
     header.masthead {
-        padding-top: 12rem;
-        padding-bottom: 12rem;
+        padding-top: 14rem;
+        padding-bottom: 14rem;
     }
     header.masthead h1 {
         font-size: 3rem;
-    }
-}
-  
-@media (min-width: 768px) {
-    .showcase .showcase-text {
-        padding: 7rem;
     }
 }
   
