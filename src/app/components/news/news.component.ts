@@ -17,8 +17,8 @@ export class NewsComponent implements OnInit {
     this.articles = this.articleService.getArticles();
   }
 
-  getImage(article: Article): string {
-    return article.image.startsWith("http")? article.image : "/assets/images/" + article.image;
+  getImageUrl(article: Article): string {
+    return this.articleService.getImageUrl(article);
   }
 
 }

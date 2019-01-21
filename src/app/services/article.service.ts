@@ -24,4 +24,12 @@ export class ArticleService {
   getArticle(id: number): Article {
     return ARTICLES.find(article => article.id === id);
   }
+
+  /**
+   * Gets the image url to be used for an article
+   * @param article The article to construct the image url for
+   */
+  getImageUrl(article: Article): string {
+    return article.image.startsWith("http")? article.image : "/assets/images/" + article.image;
+  }
 }
