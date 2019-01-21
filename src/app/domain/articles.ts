@@ -4,7 +4,7 @@ export const ARTICLES : Article[] = [
     {
         id : 1,
         title: "Why markdown is great for writing articles",
-        image: "sampleImage.png",
+        image: "http://placehold.it/700x300",
         content: 
         `
         Markdown is really excellent for writing flexible articles for several reasons;
@@ -28,6 +28,6 @@ export const ARTICLES : Article[] = [
         | zebra stripes | are neat      |    $1 |
         `,
         author: "Luke Stevens",
-        date: new Date(2019, 1, 21)
+        date: new Date(2019, 0, 21)
     }
 ];
