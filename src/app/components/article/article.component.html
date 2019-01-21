@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="my-4">
+    <a class="back" routerLink="/news">
+      <i class="fas fa-arrow-left"></i>
+      <p class="text-muted" style="display:inline; margin-left: 10px">Back to news</p>
+    </a>
+  </div>
+
+  <h1 class="my-4">{{article.title}}</h1>
+  <hr/>
+  <div class="row">
+    <div class="col-7">
+      <markdown [data]="article.content"></markdown>
+    </div>
+    <div class="col-5">
+      <img src="{{article.image}}"/>
+    </div>
+  </div>
+</div>
+  
