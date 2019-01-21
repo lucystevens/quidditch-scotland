@@ -5,6 +5,7 @@ export class Article {
     content: string;
     author: string;
     date: Date;
+    tags: string[];
 }
 
 export class Player {
@@ -18,7 +19,7 @@ export class Player {
 
 export class Fixture {
     opposition: string;
-    score: string;
+    score?: string;
     date: Date;
     location: string;
 }
