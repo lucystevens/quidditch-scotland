@@ -1,0 +1,9 @@
+.container {
+    padding-top: 54px;
+}
+  
+@media (min-width: 992px) {
+    .container {
+        padding-top: 56px;
+    }
+}

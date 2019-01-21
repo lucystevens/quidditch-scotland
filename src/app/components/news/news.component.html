@@ -1,0 +1,43 @@
+<div class="container">
+
+  <!-- Page Heading -->
+  <h1 class="my-4">News</h1>
+
+  <div class="row my-4">
+    <div *ngFor="let article of articles" class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="{{getImage(article)}}" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>{{article.title}}</h3>
+            <a class="card-link card-bottom" href="#">Read more..</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-footer text-muted">
+          Published by {{article.author}} on {{article.date | date:fullDate}}
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--<div *ngFor="let article of articles" class="card">
+    <div class="col-md-7">
+      <a href="#">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="{{getImage(article)}}" alt="">
+      </a>
+    </div>
+    <div class="col-md-5">
+      <h3>{{article.title}}</h3>
+      <a href="#">Read more..</a>
+      <small class="text-muted">Published by {{article.author}} on {{article.date | date:fullDate}}</small>
+    </div>
+  </div>-->
+
+</div>
