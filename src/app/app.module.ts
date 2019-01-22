@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { ArticleComponent } from './components/article/article.component';
 import { AboutComponent } from './components/about/about.component';
 import { FixturesComponent } from './components/fixtures/fixtures.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FixturesComponent } from './components/fixtures/fixtures.component';
     LandingPageComponent,
     ArticleComponent,
     AboutComponent,
-    FixturesComponent
+    FixturesComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
