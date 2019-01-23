@@ -1,3 +1,8 @@
+header.masthead {
+    background: url("/assets/images/fixtures.jpg") no-repeat center center;
+    background-size: cover;
+}
+
 h5 {
     margin-top: 10px;
 }
