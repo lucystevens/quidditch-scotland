@@ -1,0 +1,9 @@
+header.masthead {
+    background: url("/assets/images/catalonia-team.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+div.title{
+    position: relative;
+    top: 20px;
+}
