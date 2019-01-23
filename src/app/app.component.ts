@@ -1,4 +1,5 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,8 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 export class AppComponent {
   @ViewChild('navbarToggler') navbarToggler:ElementRef;
 
+  constructor(private router: Router) {}
+
   navBarTogglerIsVisible() {
     return this.navbarToggler.nativeElement.offsetParent !== null;
   }
@@ -16,5 +19,9 @@ export class AppComponent {
     if (this.navBarTogglerIsVisible()) {
       this.navbarToggler.nativeElement.click();
     }
+  }
+
+  isActive(route: string): boolean{
+    return route == this.router.url;
   }
 }
