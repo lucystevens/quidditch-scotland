@@ -6,6 +6,7 @@ import { ArticleComponent } from '../components/article/article.component';
 import { AboutComponent } from '../components/about/about.component';
 import { FixturesComponent } from '../components/fixtures/fixtures.component';
 import { PrivacyPolicyComponent } from '../components/privacy-policy/privacy-policy.component';
+import { TermsAndConditionsComponent } from '../components/terms-and-conditions/terms-and-conditions.component';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'news', component: NewsComponent},
   { path: 'article/:id', component: ArticleComponent},
   { path: 'fixtures', component: FixturesComponent},
-  { path: 'privacy-policy', component: PrivacyPolicyComponent}
+  { path: 'privacy-policy', component: PrivacyPolicyComponent},
+  { path: 'terms-conditions', component: TermsAndConditionsComponent}
 ];
 
 @NgModule({

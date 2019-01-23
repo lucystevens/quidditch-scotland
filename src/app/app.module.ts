@@ -10,6 +10,7 @@ import { ArticleComponent } from './components/article/article.component';
 import { AboutComponent } from './components/about/about.component';
 import { FixturesComponent } from './components/fixtures/fixtures.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { TermsAndConditionsComponent } from './components/terms-and-conditions/terms-and-conditions.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-poli
     ArticleComponent,
     AboutComponent,
     FixturesComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    TermsAndConditionsComponent
   ],
   imports: [
     BrowserModule,
