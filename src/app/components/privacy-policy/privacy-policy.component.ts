@@ -19,6 +19,6 @@ export class PrivacyPolicyComponent implements OnInit {
   smoothScroll(elementID: string){
     const element = document.querySelector(elementID);
     element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
+  }
 
 }

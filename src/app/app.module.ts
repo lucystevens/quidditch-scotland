@@ -15,6 +15,7 @@ import { SquadComponent } from './components/squad/squad.component';
 import { PlayerCardComponent } from './components/player-card/player-card.component';
 import { ArrayPipe } from './pipes/array.pipe';
 import { ExperiencePipe } from './pipes/experience.pipe';
+import { ArrowComponent } from './components/arrow/arrow.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ExperiencePipe } from './pipes/experience.pipe';
     SquadComponent,
     PlayerCardComponent,
     ArrayPipe,
-    ExperiencePipe
+    ExperiencePipe,
+    ArrowComponent
   ],
   imports: [
     BrowserModule,
