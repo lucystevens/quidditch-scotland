@@ -29,3 +29,7 @@ export class Video {
     url: string;
     thumbnail: string;
 }
+
+export class Config {
+    contactEmail: string;
+}

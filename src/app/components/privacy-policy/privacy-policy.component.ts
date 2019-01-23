@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConfigService } from 'src/app/services/config.service';
 
 @Component({
   selector: 'app-privacy-policy',
@@ -7,17 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrivacyPolicyComponent implements OnInit {
 
-  contactEmail = "[EMAIL ADDRESS]";
+  contactEmail: string;
 
-  constructor() {}
+  constructor(private config : ConfigService) { }
 
   ngOnInit() {
+    this.contactEmail = this.config.getContactEmail();
   }
 
   smoothScroll(elementID: string){
-    console.log("Scrolling to " + elementID);
     const element = document.querySelector(elementID);
-    element.scrollTop += 20;
     element.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 

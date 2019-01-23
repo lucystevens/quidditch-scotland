@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConfigService } from 'src/app/services/config.service';
 
 @Component({
   selector: 'app-terms-and-conditions',
@@ -7,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TermsAndConditionsComponent implements OnInit {
 
-  contactEmail = "[EMAIL PLACEHOLDER]";
+  contactEmail: string;
 
-  constructor() { }
+  constructor(private config : ConfigService) { }
 
   ngOnInit() {
+    this.contactEmail = this.config.getContactEmail();
   }
 
 }
