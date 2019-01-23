@@ -1,5 +1,11 @@
 h5 {
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    h5 {
+        margin-top: 20px;
+    }
 }
 
 .line-title {
@@ -11,6 +17,6 @@ h5 {
 }
 
 .line-title span {
-    background-color: #F3F5F6;
+    background-color: #ffffff;
     padding: 0 20px;
 }
