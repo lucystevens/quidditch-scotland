@@ -1,7 +1,19 @@
+<!-- Masthead -->
+<header class="masthead text-white text-center">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="title col-xl-9 mx-auto">
+        <h1 class="mb-5">News</h1>
+        <app-arrow scrollId="news" colour="white"></app-arrow>
+      </div>
+    </div>
+  </div>
+</header>
+
 <div class="main-container container">
 
-  <!-- Page Heading -->
-  <h1 class="my-4">News</h1>
+  <div id="news" class="anchor"></div>
 
   <div class="row my-4">
     <div *ngFor="let article of articles" class="card">

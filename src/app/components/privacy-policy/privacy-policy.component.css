@@ -35,8 +35,3 @@ a.function:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-
-div.anchor {
-    position: relative;
-    top: -54px;
-}

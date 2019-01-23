@@ -5,14 +5,14 @@
     <div class="row">
       <div class="title col-xl-9 mx-auto">
         <h1 class="mb-5">Meet the Squad</h1>
-        <app-arrow scrollId="squad"></app-arrow>
+        <app-arrow scrollId="squad" colour="white"></app-arrow>
       </div>
     </div>
   </div>
 </header>
 
 <div class="container main-container">
-  <h1 id="squad" class="my-4">Meet the Squad</h1>
+  <div id="squad" class="anchor"></div>
   <div class="row">
     <div *ngFor="let player of players" class="col-lg-3 col-md-4 col-sm-6 my-4">
       <app-player-card [player]="player"></app-player-card>

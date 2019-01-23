@@ -1,3 +1,8 @@
+header.masthead {
+    background: url("/assets/images/news.jpg") no-repeat center center;
+    background-size: cover;
+}
+
 div.card {
     margin: 10px;
 }
