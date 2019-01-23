@@ -39,6 +39,6 @@ export const ARTICLES : Article[] = [
         `,
         author: "Luke Stevens",
         date: new Date(2019, 0, 21),
-        tags: []
+        tags: ["articles", "can", "have", "several", "tags"]
     }
 ];

@@ -15,6 +15,11 @@
           <div class="col-md-5">
             <h3>{{article.title}}</h3>
             <a class="card-link card-bottom" routerLink="/article/{{article.id}}">Read more..</a>
+
+            <div class="tags">
+              <p class="text-muted" style="display:inline;">Tags: </p>
+              <span *ngFor="let tag of article.tags" class="badge badge-primary">{{tag}}</span>
+            </div>
           </div>
         </div>
       </div>

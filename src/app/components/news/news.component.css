@@ -1,3 +1,17 @@
 div.card {
     margin: 10px;
 }
+
+span.badge {
+    margin: 2px;
+}
+
+div.tags {
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    div.tags {
+        margin-top: 40%;
+    }
+}

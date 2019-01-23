@@ -1,3 +1,7 @@
 .back i {
     font-size: 2rem;
 }
+
+span.badge {
+    margin: 2px;
+}
