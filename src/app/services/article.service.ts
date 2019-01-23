@@ -30,6 +30,6 @@ export class ArticleService {
    * @param article The article to construct the image url for
    */
   getImageUrl(article: Article): string {
-    return article.image.startsWith("http")? article.image : "/assets/images/" + article.image;
+    return article.image.startsWith("http")? article.image : "assets/images/" + article.image;
   }
 }

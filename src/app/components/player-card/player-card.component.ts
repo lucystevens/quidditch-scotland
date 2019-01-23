@@ -16,7 +16,7 @@ export class PlayerCardComponent implements OnInit {
   }
 
   getPhoto(): string {
-    return this.player.photo.startsWith("http")? this.player.photo : "/assets/images/" + this.player.photo;
+    return this.player.photo.startsWith("http")? this.player.photo : "assets/images/" + this.player.photo;
   }
 
 }
