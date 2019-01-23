@@ -25,6 +25,7 @@
             "styles": [
               "src/styles/base.css",
               "src/styles/markdown.css",
+              "src/styles/masthead.css",
               "src/styles/device-opt.css"
             ],
             "scripts": [
