@@ -11,7 +11,7 @@ export class Article {
 export class Player {
     name: string;
     positions: string[];
-    experience: number;
+    startedPlaying: Date;
     number: number;
     photo: string;
     info: string;

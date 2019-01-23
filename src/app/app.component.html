@@ -19,7 +19,7 @@
           <a (click)="collapseNav()" class="nav-link" routerLink="/news">News</a>
         </li>
         <li class="nav-item" [ngClass]="isActive('/squad')? 'active' : ''">
-          <a (click)="collapseNav()" class="nav-link" href="#">Squad</a>
+          <a (click)="collapseNav()" class="nav-link" routerLink="/squad">Squad</a>
         </li>
         <li class="nav-item" [ngClass]="isActive('/fixtures')? 'active' : ''">
           <a (click)="collapseNav()" class="nav-link" routerLink="/fixtures">Fixtures</a>
