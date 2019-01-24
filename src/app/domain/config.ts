@@ -2,5 +2,5 @@ import { Config } from "./data-definitions";
 
 
 export const CONFIG: Config = {
-    contactEmail : "[EMAIL PLACEHOLDER]"
+    contactEmail : "quidditchscotland@gmail.com"
 }
