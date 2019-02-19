@@ -14,7 +14,7 @@ export class ArticleService {
    * date. Allows for articles to be scheduled to be published
    */
   getArticles(): Article[] {
-    return ARTICLES.filter(article => article.date <= new Date());
+    return ARTICLES.filter(article => article.date <= new Date()).sort((a1, a2) => a2.date.getTime() - a1.date.getTime());
   }
 
   /**

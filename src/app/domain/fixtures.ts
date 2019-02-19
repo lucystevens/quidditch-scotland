@@ -2,14 +2,15 @@ import { Fixture } from "./data-definitions";
 
 export const FIXTURES : Fixture[] = [
     {
-        opposition: "Some Other Team",
-        score: "90* - 40",
-        date: new Date(2018, 11, 2),
-        location: "Sheffield, UK"
+        opposition: "Team Catalonia",
+        score: "70* - 50",
+        date: new Date(2018, 11, 18),
+        location: "Barcelona, Spain"
     },
     {
-        opposition: "Another Team",
-        date: new Date(2019, 1, 8),
-        location: "Glasgow, Scotland"
+        opposition: "Team Catalonia",
+        score: "150 - 50*",
+        date: new Date(2018, 11, 18),
+        location: "Barcelona, Spain"
     }
 ];

@@ -21,4 +21,8 @@ export class FixturesComponent implements OnInit {
     this.upcomingFixtures = this.fixtureService.getUpcomingFixtures();
   }
 
+  getTeamImage(fixture: Fixture) : string {
+    return "assets/images/" + fixture.opposition.replace(" ", "-").toLocaleLowerCase() + ".png";
+  }
+
 }
