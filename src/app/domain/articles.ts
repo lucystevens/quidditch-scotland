@@ -78,7 +78,7 @@ export const ARTICLES : Article[] = [
 
     Edinburgh Firsts Captain Gary Cassidy said:  
 
-    > A quote from Gavin Hughes
+    > A quote from Gary Cassidy
 
     `,
     author: "Rix Dishington",
