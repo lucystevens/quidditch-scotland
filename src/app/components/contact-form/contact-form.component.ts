@@ -21,6 +21,7 @@ export class ContactFormComponent implements OnInit {
 
   email: Email = new Email();
   sitekey: string;
+  submitted = false;
 
   errors: string[];
 
@@ -54,8 +55,9 @@ export class ContactFormComponent implements OnInit {
         console.log(token);
         email.token = token;
 
+        // TODO: parse response from API
         mail.sendContactForm(email);
-        
+        this.submitted = true;
       });
     });
   }
