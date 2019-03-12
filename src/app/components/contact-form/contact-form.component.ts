@@ -30,11 +30,10 @@ export class ContactFormComponent implements OnInit {
     this.mail.getSiteKey().subscribe(response => {
       if(response.success){
         this.sitekey = response.data;
-        console.log(this.sitekey)
         this.addScript()
       }
       else {
-        console.log(response.errors);
+        console.error(response.errors);
       }
 
     });
@@ -42,7 +41,6 @@ export class ContactFormComponent implements OnInit {
   }
 
   addScript() {
-    console.log('preparing to load...')
     let node = document.createElement('script');
     node.src = 'https://www.google.com/recaptcha/api.js?render=' + this.sitekey;
     node.type = 'text/javascript';
@@ -55,16 +53,12 @@ export class ContactFormComponent implements OnInit {
     let ctx = this;
 
     grecaptcha.ready(function() {
-      console.log(ctx.sitekey);
       grecaptcha.execute(ctx.sitekey, {action: ctx.mail.getHostName()}).then(function(token) {
-        console.log(token);
         ctx.email.token = token;
 
-        // TODO: parse response from API
         ctx.mail.sendContactForm(ctx.email).subscribe(response => {
           if(response.success){
             ctx.submitted = true;
-            console.log(response.data);
             contactForm.reset();
           }
           else {

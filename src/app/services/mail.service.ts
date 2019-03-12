@@ -8,8 +8,7 @@ import { Email, ServerResponse } from '../domain/data-definitions';
 })
 export class MailService {
 
-  mailerUrl = "http://localhost:8001";
-  //mailerUrl = "https://mailer.lukecmstevens.co.uk";
+  mailerUrl = "https://mailer.lukecmstevens.co.uk";
   host = "lukecmstevens";
 
   constructor(private http: HttpClient) { }
