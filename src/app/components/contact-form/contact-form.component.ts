@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MailService } from 'src/app/services/mail.service';
 import { Email } from 'src/app/domain/data-definitions';
+import { NgForm } from '@angular/forms';
 
 declare const grecaptcha : any;
 
@@ -26,10 +27,16 @@ export class ContactFormComponent implements OnInit {
   errors: string[];
 
   ngOnInit() {
-    this.mail.getSiteKey().subscribe(sitekey => {
-      this.sitekey = sitekey;
-      console.log(sitekey)
-      this.addScript()
+    this.mail.getSiteKey().subscribe(response => {
+      if(response.success){
+        this.sitekey = response.data;
+        console.log(this.sitekey)
+        this.addScript()
+      }
+      else {
+        console.log(response.errors);
+      }
+
     });
 
   }
@@ -44,20 +51,27 @@ export class ContactFormComponent implements OnInit {
     document.getElementsByTagName('head')[0].appendChild(node);
   }
 
-  submit() {
-    let mail = this.mail;
-    let sitekey = this.sitekey;
-    let email = this.email;
+  submit(contactForm: NgForm) {
+    let ctx = this;
 
     grecaptcha.ready(function() {
-      console.log(sitekey);
-      grecaptcha.execute(sitekey, {action: mail.getHostName()}).then(function(token) {
+      console.log(ctx.sitekey);
+      grecaptcha.execute(ctx.sitekey, {action: ctx.mail.getHostName()}).then(function(token) {
         console.log(token);
-        email.token = token;
+        ctx.email.token = token;
 
         // TODO: parse response from API
-        mail.sendContactForm(email);
-        this.submitted = true;
+        ctx.mail.sendContactForm(ctx.email).subscribe(response => {
+          if(response.success){
+            ctx.submitted = true;
+            console.log(response.data);
+            contactForm.reset();
+          }
+          else {
+            ctx.errors = response.errors;
+          }
+        })
+
       });
     });
   }

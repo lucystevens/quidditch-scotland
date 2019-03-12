@@ -11,7 +11,7 @@
 
     <h1 [hidden]="!submitted" class="success-message">Your message has been sent successfully!</h1>
     <div class="contact-form" [ngClass]="submitted? 'blur' : 'focus'">
-      <form (ngSubmit)="submit(); contactForm.reset()" #contactForm="ngForm">
+      <form (ngSubmit)="submit(contactForm)" #contactForm="ngForm">
         <div class="form-group">
           <label for="name">Name</label>
           <input type="text" id="name" [(ngModel)]="email.name" name="name" type="text" placeholder="Name" class="form-control" #name="ngModel" required>

@@ -43,3 +43,9 @@ export class Email {
     host?: string;
     token?: string;
 }
+
+export class ServerResponse<T> {
+    success: boolean;
+    errors?: string[];
+    data?: T;
+}
