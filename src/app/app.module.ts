@@ -16,6 +16,9 @@ import { PlayerCardComponent } from './components/player-card/player-card.compon
 import { ArrayPipe } from './pipes/array.pipe';
 import { ExperiencePipe } from './pipes/experience.pipe';
 import { ArrowComponent } from './components/arrow/arrow.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,11 +34,14 @@ import { ArrowComponent } from './components/arrow/arrow.component';
     PlayerCardComponent,
     ArrayPipe,
     ExperiencePipe,
-    ArrowComponent
+    ArrowComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
     MarkdownModule.forRoot()
   ],
   providers: [],

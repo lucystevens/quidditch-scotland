@@ -33,3 +33,19 @@ export class Video {
 export class Config {
     contactEmail: string;
 }
+
+export class Email {
+    name: string;
+    userEmail: string;
+    subject: string;
+    body: string;
+
+    host?: string;
+    token?: string;
+}
+
+export class ServerResponse<T> {
+    success: boolean;
+    errors?: string[];
+    data?: T;
+}

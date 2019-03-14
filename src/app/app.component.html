@@ -1,7 +1,9 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Quidditch Scotland</a>
+    <a class="navbar-brand" href="#">Quidditch Scotland
+      <img src="assets/images/QuidditchLogo.png" width="40">
+    </a>
     <button #navbarToggler class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,6 +29,11 @@
         <!--<li class="nav-item" [ngClass]="isActive('/footage')? 'active' : ''">
           <a (click)="collapseNav()" class="nav-link" href="#">Footage</a>
         </li>-->
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://www.quidditchuk.org/">QuidditchUK
+              <img src="https://www.quidditchuk.org/wp-content/uploads/2017/09/cropped-QUK-Logo-1-Full-Colour-1.png" width="25">
+          </a>
+        </li>
       </ul>
     </div>
   </div>
@@ -45,7 +52,7 @@
           </li>
           <li class="list-inline-item">&sdot;</li>
           <li class="list-inline-item">
-            <a href="#">Contact</a>
+            <a routerLink="/contact-us">Contact</a>
           </li>
           <li class="list-inline-item">&sdot;</li>
           <li class="list-inline-item">

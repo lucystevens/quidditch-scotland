@@ -3,42 +3,86 @@ import { Article } from "./data-definitions";
 export const ARTICLES : Article[] = [
     {
         id : 1,
-        title: "Why markdown is great for writing articles",
+        title: "Scottish quidditch makes international debut",
         image: "http://placehold.it/500x300",
         content: 
         `
-        Markdown is really excellent for writing flexible articles for several reasons;
+        This weekend, a strong Scottish squad made their international
+        debut in a series of friendly games against Catalonia hosted in Barcelona.
+        Eighteen players, selected from the national training squad, travelled out to
+        represent Scotland in the team’s first ever international fixture. 
 
-        ### Lists
+        The first game was close, finishing with a narrow win for the hosts with
+        the score Catalonia 70* - 50 Scotland. Scotland fought back, winning the second game
+        of the series decisively 150 – 50*. 
 
-        1. You can make ordered lists easily
-        2. It requires no knowledge of code
-          * You can also have *sub-lists*
-        3. Split things up esily with horizontal rules
-        ---
-        ### Formatting
+        Captain Tev Wallace said:
 
-        Emphasis, aka italics, with *asterisks* or _underscores_.
-
-        Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-        Combined emphasis with **asterisks and _underscores_**.
-
-        Strikethrough uses two tildes. ~~Scratch this.~~
-
-        ---
-
-        ### Tables
-
-        | Tables        | Are           | Cool  |
-        | ------------- |:-------------:| -----:|
-        | col 3 is      | right-aligned | $1600 |
-        | col 2 is      | centered      |   $12 |
-        | zebra stripes | are neat      |    $1 |
+        > A quote from Tev Wallace
 
         `,
-        author: "Luke Stevens",
-        date: new Date(2019, 0, 21),
-        tags: ["articles", "can", "have", "several", "tags"]
-    }
+        author: "Rix Dishington",
+        date: new Date(2018, 10, 19),
+        tags: ["team scotland", "international", "catalonia", "debut"]
+    },
+    {
+      id : 2,
+      title: "Glasgow Grim Reapers Qualify for European Quidditch Cup",
+      image: "http://placehold.it/500x300",
+      content: 
+      `
+      After a gruelling weekend competing against the best teams from across the UK,
+      the Glasgow Grim Reapers finished in fourth place and qualified to represent
+      QuidditchUK at Division 1 of the European Quidditch Cup which will take place
+      in Harelbeke, Belgium on 11/12th May. This will be the first time that a Scottish
+      team has competed at a European Quidditch Cup and we wish Glasgow the best of luck
+      for their international debut.   
+
+      Gavin Hughes, Head Coach of the Scottish national team and a Glasgow Grim Reapers player said: 
+
+      > A quote from Gavin Hughes
+
+      Edinburgh’s Holyrood Hippogriffs Firsts team also competed at the tournament,
+      just missing out on qualification in a match with Southampton Quidditch Club. 
+
+      `,
+      author: "Rix Dishington",
+      date: new Date(2019, 0, 30),
+      tags: ["eqt", "eqc", "glasgow", "edinburgh", "quidditchuk"]
+  },
+  {
+    id : 3,
+    title: "Edinburgh Holyrood Hippogriffs Firsts regain Scottish Cup title",
+    image: "http://placehold.it/500x300",
+    content: 
+    `
+    After missing the tournament last season to compete at Hateful Eight in Coventry,
+    the Edinburgh Holyrood Hippogriffs Firsts have regained the title of Scottish Champions
+    from last year’s winners the Glasgow Grim Reapers.    
+
+    In a dramatic finale, the result went down to tiebreakers after Edinburgh’s First and
+    Second teams and Glasgow all came away with two wins each.  
+
+    The tournament commenced with a shock upset as Edinburgh’s Second team clinched a snitch range
+    victory over the heavily favoured Glasgow Grim Reapers. Both teams then went on to defeat the
+    St Andrews Snidgets, who also lost to Edinburgh Firsts. The Edinburgh derby finished with a
+    predictable heavy victory for the Edinburgh Firsts side, leading to the final match of the
+    day between an undefeated Edinburgh Firsts squad and a resurgent Glasgow with a lot of ground to make up. 
+
+    In the final nail-biting match, Glasgow pulled off their first ever defeat of their perennial rivals,
+    levelling up the win/loss records and forcing the tournament to a three-way tiebreaker. 
+
+    Unfortunately for Glasgow, their final victory wasn’t enough to upset the QPD scales and despite
+    losing the final match of the day, Edinburgh Firsts were declared the tournament winners for
+    the third?? (check w/Edinburgh) time.
+
+    Edinburgh Firsts Captain Gary Cassidy said:  
+
+    > A quote from Gary Cassidy
+
+    `,
+    author: "Rix Dishington",
+    date: new Date(2019, 1, 19),
+    tags: ["edinburgh", "glasgow", "st andrews", "stirling", "scottish cup"]
+}
 ];
