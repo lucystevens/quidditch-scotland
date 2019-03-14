@@ -23,6 +23,7 @@ export class ContactFormComponent implements OnInit {
   email: Email = new Email();
   sitekey: string;
   submitted = false;
+  submitting = false;
 
   errors: string[];
 
@@ -51,6 +52,7 @@ export class ContactFormComponent implements OnInit {
 
   submit(contactForm: NgForm) {
     let ctx = this;
+    this.submitting = true;
 
     grecaptcha.ready(function() {
       grecaptcha.execute(ctx.sitekey, {action: ctx.mail.getHostName()}).then(function(token) {
@@ -58,10 +60,12 @@ export class ContactFormComponent implements OnInit {
 
         ctx.mail.sendContactForm(ctx.email).subscribe(response => {
           if(response.success){
+            ctx.submitting = false;
             ctx.submitted = true;
             contactForm.reset();
           }
           else {
+            ctx.submitting = false;
             ctx.errors = response.errors;
           }
         })

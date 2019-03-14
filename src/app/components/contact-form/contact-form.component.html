@@ -37,7 +37,10 @@
           <div [hidden]="body.valid || body.pristine" class="alert alert-danger">You must add a message to send</div>
         </div>
   
-        <button type="submit" class="btn btn-success" [disabled]="!contactForm.form.valid">Submit</button>
+        <button type="submit" class="btn btn-success" [disabled]="!contactForm.form.valid || submitting">
+          <span [hidden]="submitting">Send</span>
+          <img [hidden]="!submitting" height="35" src="assets/images/loading.gif">
+        </button>
   
       </form>
     </div>
