@@ -12,7 +12,6 @@ export class Player {
     name: string;
     positions: string[];
     startedPlaying: Date;
-    number: number;
     photo: string;
     info: string;
 }
