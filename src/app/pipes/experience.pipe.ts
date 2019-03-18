@@ -14,7 +14,12 @@ export class ExperiencePipe implements PipeTransform {
       years--;
       months += 12;
     }
-    return years + " years, " + months + " months";
+    if(years > 0){
+      return years + " years, " + months + " months";
+    }
+    else {
+      return months + " months";
+    }
   }
 
 }
