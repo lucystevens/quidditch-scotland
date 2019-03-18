@@ -75,7 +75,7 @@ export const PLAYERS : Player[] = [
         name : "Natalie Smith",
         positions : ["Chaser"],
         startedPlaying : new Date(2018, 8),
-        photo : "http://placehold.it/200x200",
+        photo : "natalie-smith.jpg",
         info : ""
     },
     {
