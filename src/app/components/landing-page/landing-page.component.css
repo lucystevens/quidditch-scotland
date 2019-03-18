@@ -1,6 +1,20 @@
 header.masthead {
-    background: url("/assets/images/flag.png") no-repeat center right;
+    background: url("/assets/images/covers/flag-sm.png") no-repeat center right;
     background-size: cover;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        background: url("/assets/images/covers/flag-md.png") no-repeat center right;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1440px) {
+    header.masthead {
+        background: url("/assets/images/covers/flag-lg.png") no-repeat center right;
+        background-size: cover;
+    }
 }
 
 .title-box {

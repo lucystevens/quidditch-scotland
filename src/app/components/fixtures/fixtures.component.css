@@ -1,6 +1,20 @@
 header.masthead {
-    background: url("/assets/images/fixtures-full.jpg") no-repeat center center;
+    background: url("/assets/images/covers/fixtures-sm.jpg") no-repeat center center;
     background-size: cover;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        background: url("/assets/images/covers/fixtures-md.jpg") no-repeat center center;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1440px) {
+    header.masthead {
+        background: url("/assets/images/covers/fixtures-lg.jpg") no-repeat center center;
+        background-size: cover;
+    }
 }
 
 h5 {
