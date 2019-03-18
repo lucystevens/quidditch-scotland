@@ -6,6 +6,9 @@ export class Article {
     author: string;
     date: Date;
     tags: string[];
+
+    photoCredit?: string;
+    creditLink?: string;
 }
 
 export class Player {
