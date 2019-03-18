@@ -3,6 +3,17 @@ header.masthead {
     background-size: cover;
 }
 
+.title-box {
+    z-index:999;
+}
+
+.cover-title {
+    text-shadow: 2px 2px #444444;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0px 10px;
+}
+
 .features-icons {
     padding-top: 7rem;
     padding-bottom: 7rem;
