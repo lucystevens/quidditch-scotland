@@ -115,6 +115,7 @@ export const ARTICLES : Article[] = [
         `,
         author: "Hannah Glover",
         date: new Date(2019, 2, 18),
-        tags: ["snow", "open training", "team scotland"]
+        tags: ["snow", "open training", "team scotland"],
+        photoCredit: "Rebecca Norman"
     }
 ];
