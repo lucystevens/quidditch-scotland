@@ -42,7 +42,14 @@ export const ARTICLES : Article[] = [
 
         Gavin Hughes, Head Coach of the Scottish national team and a Glasgow Grim Reapers player said: 
 
-        > A quote from Gavin Hughes
+        > I think it'd be fair to say that nobody in the Glasgow Grim Reapers expected we'd
+        perform quite so well at EQT. We've not quite caught up mentally with the club's rapid
+        rise to the top tier of the UK game, and still tend to underestimate our own capabilities,
+        but in some ways this is a good mentality to have. It stops us from becoming complacent,
+        and I think it will permeate the way we approach EQC, especially as the first Scottish
+        club ever to attend a tournament at that level. We want to do Scottish quidditch proud,
+        and the fact that less than a season ago the club was still competing at Dev Cup will
+        keep us grounded even as we brush shoulders with the finest teams in Europe.
 
         Edinburgh’s Holyrood Hippogriffs Firsts team also competed at the tournament,
         just missing out on qualification in a match with Southampton Quidditch Club. 
@@ -78,11 +85,14 @@ export const ARTICLES : Article[] = [
 
         Unfortunately for Glasgow, their final victory wasn’t enough to upset the QPD scales and despite
         losing the final match of the day, Edinburgh Firsts were declared the tournament winners for
-        the third?? (check w/Edinburgh) time.
+        the third time.
 
         Edinburgh Firsts Captain Gary Cassidy said:  
 
-        > A quote from Gary Cassidy
+        > We had to take two much smaller squads than we would have liked this year, however I’m
+        extremely happy with the result and I know that all our players gave 110% in each game
+        which shows in the result and I’m very proud of everyone for the effort they put in to
+        make it possible.
 
         `,
         author: "Rix Dishington",
