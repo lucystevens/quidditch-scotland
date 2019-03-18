@@ -39,7 +39,7 @@ export const PLAYERS : Player[] = [
     {
         name : "Katy Lawrence",
         positions : ["Chaser"],
-        startedPlaying : new Date(2014, 3),
+        startedPlaying : new Date(2015, 3),
         photo : "katy-lawrence.jpg",
         info : "She spends a lot of time on youtube watching videos of people building their own tiny eco-friendly homes."
     },
