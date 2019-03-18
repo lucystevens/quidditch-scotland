@@ -7,7 +7,7 @@ A website to showcase the achievements of the Scottish National Team and the pro
 - [x] QuidditchUK link in header
 - [x] Replace about page lorem ipsum with actual information
 - [x] Add drop shadow to cards
-- [ ] Improve image size optimisation
+- [x] Improve image size optimisation
 - [ ] Add filtering support for tags, text, and dates to news page
 - [ ] Add filtering support for names and positions to the squad page
 - [ ] Add lazy loading to news page (only load 5 articles at a time)
