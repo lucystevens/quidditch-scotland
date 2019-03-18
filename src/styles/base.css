@@ -24,3 +24,14 @@ div.anchor {
     text-align: center;
 }
 
+.link {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

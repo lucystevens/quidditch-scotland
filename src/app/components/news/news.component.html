@@ -17,7 +17,7 @@
   <hr/>
 
   <div class="row my-4">
-    <div *ngFor="let article of articles" class="card">
+    <div *ngFor="let article of articles | slice:0:loaded" class="card">
       <div class="card-body">
         <div class="row">
           <div class="col-md-7">
@@ -43,5 +43,7 @@
 
     </div>
   </div>
+
+  <p [hidden]="loaded >= articles.length" class="link mx-auto" (click)="loadMore()">Load more...</p>
 
 </div>

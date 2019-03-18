@@ -9,7 +9,10 @@ import { ArticleService } from 'src/app/services/article.service';
 })
 export class NewsComponent implements OnInit {
 
+  private loadStep = 5;
+
   articles: Article[];
+  loaded = this.loadStep;
 
   constructor(private articleService: ArticleService) { }
 
@@ -19,6 +22,10 @@ export class NewsComponent implements OnInit {
 
   getImageUrl(article: Article): string {
     return this.articleService.getImageUrl(article);
+  }
+
+  loadMore(){
+    this.loaded += this.loadStep;
   }
 
 }

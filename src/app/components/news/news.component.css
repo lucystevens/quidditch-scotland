@@ -34,3 +34,7 @@ div.tags {
         margin-top: 40%;
     }
 }
+
+p.link {
+    text-align:center;
+}

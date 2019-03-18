@@ -10,7 +10,7 @@ A website to showcase the achievements of the Scottish National Team and the pro
 - [x] Improve image size optimisation
 - [ ] Add filtering support for tags, text, and dates to news page
 - [ ] Add filtering support for names and positions to the squad page
-- [ ] Add lazy loading to news page (only load 5 articles at a time)
+- [x] Add lazy loading to news page (only load 5 articles at a time)
 - [ ] Add lazy loading to fixtures page (3 past, 3 upcoming)
 - [ ] Add dedicated past and upcoming fixtures pages to see all
 - [ ] Add footage page with footage from team Scotland and scottish teams
