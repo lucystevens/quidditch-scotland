@@ -4,7 +4,7 @@ export const ARTICLES : Article[] = [
     {
         id : 1,
         title: "Scottish quidditch makes international debut",
-        image: "http://placehold.it/500x300",
+        image: "debut.jpg",
         content: 
         `
         This weekend, a strong Scottish squad made their international
@@ -23,12 +23,14 @@ export const ARTICLES : Article[] = [
         `,
         author: "Rix Dishington",
         date: new Date(2018, 10, 19),
-        tags: ["team scotland", "international", "catalonia", "debut"]
+        tags: ["team scotland", "international", "catalonia", "debut"],
+        photoCredit: "Axel Casas",
+        creditLink: "https://www.facebook.com/BocsFolls/"
     },
     {
       id : 2,
       title: "Glasgow Grim Reapers Qualify for European Quidditch Cup",
-      image: "http://placehold.it/500x300",
+      image: "eqt.jpg",
       content: 
       `
       After a gruelling weekend competing against the best teams from across the UK,
@@ -48,7 +50,9 @@ export const ARTICLES : Article[] = [
       `,
       author: "Rix Dishington",
       date: new Date(2019, 0, 30),
-      tags: ["eqt", "eqc", "glasgow", "edinburgh", "quidditchuk"]
+      tags: ["eqt", "eqc", "glasgow", "edinburgh", "quidditchuk"],
+      photoCredit: "Sam Birkitt Photography",
+      creditLink: "https://www.facebook.com/sbirkittphotography/"
   },
   {
     id : 3,
