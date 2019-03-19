@@ -19,6 +19,7 @@ import { ArrowComponent } from './components/arrow/arrow.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { FixtureComponent } from './components/fixture/fixture.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FormsModule } from '@angular/forms';
     ArrayPipe,
     ExperiencePipe,
     ArrowComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    FixtureComponent
   ],
   imports: [
     BrowserModule,

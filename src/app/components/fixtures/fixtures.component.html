@@ -22,34 +22,8 @@
     </span>
   </div>
 
-  <div *ngFor="let fixture of pastFixtures" class="card text-center shadow-lg rounded mb-3">
-    <div class="card-body">
-
-      <div class="row">
-        <div class="col-md-2 col-6">
-          <img src="assets/images/QuidditchLogo.png" height="{{height}}">
-        </div>
-        <div class="col-md-3 col-6">
-          <h5>Team Scotland</h5>
-        </div>
-        <div class="col-md-2 col-12">
-          <h5>{{fixture.score}}</h5>
-        </div>
-        <div class="col-md-3 col-6">
-          <h5>{{fixture.opposition}}</h5>
-        </div>
-        <div class="col-md-2 col-6">
-          <img src="{{getTeamImage(fixture)}}" height="{{height}}">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h6 class="text-muted mt-2 mb-0">{{fixture.date | date:fullDate}} - {{fixture.location}}</h6>
-        </div>
-      </div>
-
-    </div>
+  <div *ngFor="let fixture of pastFixtures">
+    <app-fixture [fixture]="fixture"></app-fixture>
   </div>
 
   <div class="line-title mt-5">
@@ -58,34 +32,8 @@
     </span>
   </div>
 
-  <div *ngFor="let fixture of upcomingFixtures" class="card text-center shadow-lg rounded mb-3">
-    <div class="card-body">
-
-      <div class="row">
-        <div class="col-md-2 col-6">
-          <img src="assets/images/QuidditchLogo.png" height="{{height}}">
-        </div>
-        <div class="col-md-3 col-6">
-          <h5>Team Scotland</h5>
-        </div>
-        <div class="col-md-2 col-12">
-          <h5>- vs -</h5>
-        </div>
-        <div class="col-md-3 col-6">
-          <h5>{{fixture.opposition}}</h5>
-        </div>
-        <div class="col-md-2 col-6">
-          <img src="http://placehold.it/100x100" height="{{height}}">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h6 class="text-muted mt-2 mb-0">{{fixture.date | date:fullDate}} - {{fixture.location}}</h6>
-        </div>
-      </div>
-
-    </div>
+  <div *ngFor="let fixture of upcomingFixtures">
+    <app-fixture [fixture]="fixture"></app-fixture>
   </div>
 
 </div>

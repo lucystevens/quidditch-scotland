@@ -9,8 +9,6 @@ import { FixtureService } from 'src/app/services/fixture.service';
 })
 export class FixturesComponent implements OnInit {
 
-  height = 75;
-
   pastFixtures: Fixture[];
   upcomingFixtures: Fixture[];
 
@@ -19,10 +17,6 @@ export class FixturesComponent implements OnInit {
   ngOnInit() {
     this.pastFixtures = this.fixtureService.getPastFixtures();
     this.upcomingFixtures = this.fixtureService.getUpcomingFixtures();
-  }
-
-  getTeamImage(fixture: Fixture) : string {
-    return "assets/images/" + fixture.opposition.replace(" ", "-").toLocaleLowerCase() + ".png";
   }
 
 }
