@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Article } from '../domain/data-definitions';
 import { ARTICLES } from '../domain/articles';
+import { a } from '@angular/core/src/render3';
 
 @Injectable({
   providedIn: 'root'
@@ -31,5 +32,11 @@ export class ArticleService {
    */
   getImageUrl(article: Article): string {
     return article.image.startsWith("http")? article.image : "assets/articles/" + article.image;
+  }
+
+  getAllTags(): Set<string> {
+    var tags = new Set<string>();
+    this.getArticles().map(a => a.tags).reduce((a, b) => a.concat(b)).forEach(tag => tags.add(tag));
+    return tags;
   }
 }
