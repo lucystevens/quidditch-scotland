@@ -27,7 +27,7 @@ export const PLAYERS : Player[] = [
         positions : ["Keeper", "Chaser"],
         startedPlaying : new Date(2018, 0),
         photo : "http://placehold.it/200x200",
-        info : "He's technically Swedish and his last name is an acronym for Trashcan"
+        info : "He's technically Swedish and his last name is an anagram for Trashcan"
     },
     {
         name : "James King-Nickol",
@@ -91,5 +91,12 @@ export const PLAYERS : Player[] = [
         startedPlaying : new Date(2016, 8),
         photo : "gary-cassidy.jpg",
         info : "During both Scottish Cups he has attended as captain he has been breaking gender rule during a snitch catch by his team"
+    },
+    {
+        name : "Kieran Newton",
+        positions : ["Chaser", "Seeker"],
+        startedPlaying : new Date(2016, 2),
+        photo : "kieran-newton.jpg",
+        info : "He once had a Skype call with Jackie Chan. It was meant to be in person, but Jackie was trapped in Beijing and forbidden from leaving due to election problems."
     }
 ];
