@@ -26,7 +26,7 @@ export const PLAYERS : Player[] = [
         name : "Alexander Strachan",
         positions : ["Keeper", "Chaser"],
         startedPlaying : new Date(2018, 0),
-        photo : "http://placehold.it/200x200",
+        photo : "alex-strachan.jpg",
         info : "He's technically Swedish and his last name is an anagram for Trashcan."
     },
     {
@@ -110,7 +110,7 @@ export const PLAYERS : Player[] = [
         name : "Bex McLaughlin",
         positions : ["Beater", "Keeper", "Chaser", "Seeker"],
         startedPlaying : new Date(2012, 7),
-        photo : "http://placehold.it/200x200",
+        photo : "bex-mclaughlin.jpg",
         info : "Bex is hoping to make Team Scotland their fourth national team."
     }
 ];
