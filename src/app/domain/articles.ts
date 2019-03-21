@@ -97,7 +97,8 @@ export const ARTICLES : Article[] = [
         `,
         author: "Rix Dishington",
         date: new Date(2019, 1, 19),
-        tags: ["edinburgh", "glasgow", "st andrews", "stirling", "scottish cup"]
+        tags: ["edinburgh", "glasgow", "st andrews", "stirling", "scottish cup"],
+        photoCredit: "Lisa Dörner"
     },
     {
         id: 4,
