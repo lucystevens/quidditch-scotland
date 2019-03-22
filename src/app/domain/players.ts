@@ -6,14 +6,14 @@ export const PLAYERS : Player[] = [
         positions : ["Beater"],
         startedPlaying : new Date(2014, 8),
         photo : "luke-stevens.jpg",
-        info : "I made this website"
+        info : "I made this website."
     },
     {
-        name : "Sam Frolich",
+        name : "Sam Frohlich",
         positions : ["Chaser", "Seeker"],
         startedPlaying : new Date(2016, 8),
         photo : "sam-frolich.jpg",
-        info : "Wolves are her favourite animal"
+        info : "Wolves are her favourite animal."
     },
     {
         name : "Lizzie Keegan",
@@ -26,15 +26,15 @@ export const PLAYERS : Player[] = [
         name : "Alexander Strachan",
         positions : ["Keeper", "Chaser"],
         startedPlaying : new Date(2018, 0),
-        photo : "http://placehold.it/200x200",
-        info : "He's technically Swedish and his last name is an anagram for Trashcan"
+        photo : "alex-strachan.jpg",
+        info : "He's technically Swedish and his last name is an anagram for Trashcan."
     },
     {
         name : "James King-Nickol",
         positions : ["Beater"],
         startedPlaying : new Date(2018, 7),
         photo : "james-king-nickol.jpg",
-        info : ""
+        info : "When asked for a headshot, I meant a quidditch one (actors, any excuse!)"
     },
     {
         name : "Katy Lawrence",
@@ -62,14 +62,14 @@ export const PLAYERS : Player[] = [
         positions : ["Beater"],
         startedPlaying : new Date(2016, 8),
         photo : "jack-murray.jpg",
-        info : "He sings to himself on pitch to focus his mind"
+        info : "He sings to himself on pitch to focus his mind."
     },
     {
         name : "James Riches",
         positions : ["Chaser"],
         startedPlaying : new Date(2018, 8),
         photo : "james-riches.jpg",
-        info : "Will try and think of a fun fact"
+        info : "Will try and think of a fun fact."
     },
     {
         name : "Natalie Smith",
@@ -79,18 +79,18 @@ export const PLAYERS : Player[] = [
         info : ""
     },
     {
-        name : "Yanna",
+        name : "Yanna Colmerauer",
         positions : ["Beater", "Chaser"],
         startedPlaying : new Date(2015, 8),
         photo : "yanna.jpg",
-        info : "Played for Team Brazil in both the 2016 and 2018 world cups"
+        info : "Played for Team Brazil in both the 2016 and 2018 world cups."
     },
     {
         name : "Gary Cassidy",
         positions : ["Beater", "Chaser"],
         startedPlaying : new Date(2016, 8),
         photo : "gary-cassidy.jpg",
-        info : "During both Scottish Cups he has attended as captain he has been breaking gender rule during a snitch catch by his team"
+        info : "During both Scottish Cups he has attended as captain he has been breaking gender rule during a snitch catch by his team."
     },
     {
         name : "Kieran Newton",
@@ -98,5 +98,19 @@ export const PLAYERS : Player[] = [
         startedPlaying : new Date(2016, 2),
         photo : "kieran-newton.jpg",
         info : "He once had a Skype call with Jackie Chan. It was meant to be in person, but Jackie was trapped in Beijing and forbidden from leaving due to election problems."
+    },
+    {
+        name : "Nicolás Casillas",
+        positions : ["Beater", "Seeker"],
+        startedPlaying : new Date(2017, 8),
+        photo : "nic-casillas.jpg",
+        info : "He's not Gary Cassidy."
+    },
+    {
+        name : "Bex McLaughlin",
+        positions : ["Beater", "Keeper", "Chaser", "Seeker"],
+        startedPlaying : new Date(2012, 7),
+        photo : "bex-mclaughlin.jpg",
+        info : "Bex is hoping to make Team Scotland their fourth national team."
     }
 ];

@@ -9,7 +9,7 @@ import { Email, ServerResponse } from '../domain/data-definitions';
 export class MailService {
 
   mailerUrl = "https://mailer.lukecmstevens.co.uk";
-  host = "lukecmstevens";
+  host = "quidditchscotland";
 
   constructor(private http: HttpClient) { }
 

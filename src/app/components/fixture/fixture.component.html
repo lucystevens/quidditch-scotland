@@ -1,0 +1,29 @@
+<div class="card text-center shadow-lg rounded mb-3">
+  <div class="card-body">
+
+    <div class="row">
+      <div class="col-md-2 col-6">
+        <img src="assets/images/QuidditchLogo.png" height="{{height}}">
+      </div>
+      <div class="col-md-3 col-6">
+        <h5>Team Scotland</h5>
+      </div>
+      <div class="col-md-2 col-12">
+        <h5>{{fixture.score}}</h5>
+      </div>
+      <div class="col-md-3 col-6">
+        <h5>{{isPast()? fixture.opposition : '- vs -'}}</h5>
+      </div>
+      <div class="col-md-2 col-6">
+        <img src="{{getTeamImage()}}" height="{{height}}">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h6 class="text-muted mt-2 mb-0">{{fixture.date | date:fullDate}} - {{fixture.location}}</h6>
+      </div>
+    </div>
+
+  </div>
+</div>
