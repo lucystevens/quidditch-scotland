@@ -19,5 +19,5 @@ install:
 
 script:
   - ng build --prod --base-href https://quidditchscotland.co.uk/
-  - echo "quidditchscotland.co.uk" > dist/CNAME
+  - echo "quidditchscotland.co.uk" > dist/quidditch-scotland/CNAME
   - npx ngh --dir=dist/quidditch-scotland --repo=https://GH_TOKEN@github.com/lukecmstevens/quidditch-scotland.git --name="Luke Stevens" --email=lcm.stevens96@gmail.com
