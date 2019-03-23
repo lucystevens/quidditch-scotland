@@ -118,6 +118,6 @@ export const PLAYERS : Player[] = [
         positions : ["Chaser", "Seeker"],
         startedPlaying : new Date(2017, 3),
         photo : "ross-wiseman.jpg",
-        info : "Ross has two Lord of the Rings tattoos!"
+        info : "He has two Lord of the Rings tattoos!"
     }
 ];

@@ -16,6 +16,13 @@ export const ARTICLES : Article[] = [
         the score Catalonia 70* - 50 Scotland. Scotland fought back, winning the second game
         of the series decisively 150 – 50*. 
 
+        Rix Dishington, the manager for the Scottish National Team said:
+
+        > I'm really proud of everyone on the squad for the way they
+        stepped up this weekend and got Scotland it's first ever win.
+        I'm excited to see what we can do in the future with a bit more training!
+        Thanks to Catalonia for hosting us and giving us such good games.
+
         `,
         author: "Rix Dishington",
         date: new Date(2018, 10, 19),
