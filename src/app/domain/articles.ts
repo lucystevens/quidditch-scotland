@@ -16,10 +16,6 @@ export const ARTICLES : Article[] = [
         the score Catalonia 70* - 50 Scotland. Scotland fought back, winning the second game
         of the series decisively 150 – 50*. 
 
-        Captain Tev Wallace said:
-
-        > A quote from Tev Wallace
-
         `,
         author: "Rix Dishington",
         date: new Date(2018, 10, 19),
