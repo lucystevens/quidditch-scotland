@@ -6,7 +6,7 @@ export const PLAYERS : Player[] = [
         positions : ["Beater"],
         startedPlaying : new Date(2014, 8),
         photo : "luke-stevens.jpg",
-        info : "I made this website."
+        info : "They made this website for the exposure."
     },
     {
         name : "Sam Frohlich",
@@ -112,5 +112,12 @@ export const PLAYERS : Player[] = [
         startedPlaying : new Date(2012, 7),
         photo : "bex-mclaughlin.jpg",
         info : "Bex is hoping to make Team Scotland their fourth national team."
+    },
+    {
+        name : "Ross Wiseman",
+        positions : ["Chaser", "Seeker"],
+        startedPlaying : new Date(2017, 3),
+        photo : "ross-wiseman.jpg",
+        info : "Ross has two Lord of the Rings tattoos!"
     }
 ];
