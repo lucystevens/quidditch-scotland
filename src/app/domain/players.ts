@@ -119,5 +119,12 @@ export const PLAYERS : Player[] = [
         startedPlaying : new Date(2017, 3),
         photo : "ross-wiseman.jpg",
         info : "He has two Lord of the Rings tattoos!"
+    },
+    {
+        name : "Tev Wallace",
+        positions : ["Beater"],
+        startedPlaying : new Date(2016, 8),
+        photo : "tev-wallace.jpg",
+        info : "Loves hugs. Always."
     }
 ];
