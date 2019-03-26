@@ -16,12 +16,11 @@ export const ARTICLES : Article[] = [
         the score Catalonia 70* - 50 Scotland. Scotland fought back, winning the second game
         of the series decisively 150 – 50*. 
 
-        Rix Dishington, the manager for the Scottish National Team said:
+        Captain Tev Wallace said:
 
-        > I'm really proud of everyone on the squad for the way they
-        stepped up this weekend and got Scotland it's first ever win.
-        I'm excited to see what we can do in the future with a bit more training!
-        Thanks to Catalonia for hosting us and giving us such good games.
+        > Captaining in Catalonia was a fantastic experience, seeing everyone
+        work and play together for the first time, and really giving an
+        idea of how much potential we have as a national team.
 
         `,
         author: "Rix Dishington",
