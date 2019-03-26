@@ -9,10 +9,10 @@
         <h5>Team Scotland</h5>
       </div>
       <div class="col-md-2 col-12">
-        <h5>{{fixture.score}}</h5>
+        <h5>{{isPast()? fixture.score : '- vs -'}}</h5>
       </div>
       <div class="col-md-3 col-6">
-        <h5>{{isPast()? fixture.opposition : '- vs -'}}</h5>
+        <h5>{{fixture.opposition}}</h5>
       </div>
       <div class="col-md-2 col-6">
         <img src="{{getTeamImage()}}" height="{{height}}">
