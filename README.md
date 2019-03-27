@@ -17,6 +17,7 @@ A website to showcase the achievements of the Scottish National Team and the pro
 - [ ] Improve search engine optimisation
 - [ ] Add Google Analytics
 - [ ] Include teams played for to player cards
+- [ ] Make the teams in the fixture component more mobile friendly
 
 ## Angular commands
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
