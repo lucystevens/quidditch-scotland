@@ -9,6 +9,11 @@ import { FixtureService } from 'src/app/services/fixture.service';
 })
 export class FixturesComponent implements OnInit {
 
+  private loadStep = 3;
+
+  pastLoaded = this.loadStep;
+  futureLoaded = this.loadStep;
+
   pastFixtures: Fixture[];
   upcomingFixtures: Fixture[];
 
@@ -17,6 +22,14 @@ export class FixturesComponent implements OnInit {
   ngOnInit() {
     this.pastFixtures = this.fixtureService.getPastFixtures();
     this.upcomingFixtures = this.fixtureService.getUpcomingFixtures();
+  }
+
+  loadMorePast(){
+    this.pastLoaded += this.loadStep;
+  }
+
+  loadMoreFuture(){
+    this.futureLoaded += this.loadStep;
   }
 
 }

@@ -22,9 +22,10 @@
     </span>
   </div>
 
-  <div *ngFor="let fixture of pastFixtures">
+  <div *ngFor="let fixture of pastFixtures | slice:0:pastLoaded">
     <app-fixture [fixture]="fixture"></app-fixture>
   </div>
+  <p [hidden]="pastLoaded >= pastFixtures.length" class="link mx-auto" (click)="loadMorePast()">Load more...</p>
 
   <div class="line-title mt-5">
     <span class="text-muted">
@@ -32,8 +33,9 @@
     </span>
   </div>
 
-  <div *ngFor="let fixture of upcomingFixtures">
+  <div *ngFor="let fixture of upcomingFixtures | slice:0:futureLoaded">
     <app-fixture [fixture]="fixture"></app-fixture>
   </div>
+  <p [hidden]="futureLoaded >= upcomingFixtures.length" class="link mx-auto" (click)="loadMoreFuture()">Load more...</p>
 
 </div>
