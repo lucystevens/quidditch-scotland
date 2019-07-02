@@ -6,7 +6,7 @@ export const PLAYERS : Player[] = [
         positions : ["Beater"],
         startedPlaying : new Date(2014, 8),
         photo : "luke-stevens.jpg",
-        info : "I made this website."
+        info : "They made this website for the exposure."
     },
     {
         name : "Sam Frohlich",
@@ -26,7 +26,7 @@ export const PLAYERS : Player[] = [
         name : "Alexander Strachan",
         positions : ["Keeper", "Chaser"],
         startedPlaying : new Date(2018, 0),
-        photo : "http://placehold.it/200x200",
+        photo : "alex-strachan.jpg",
         info : "He's technically Swedish and his last name is an anagram for Trashcan."
     },
     {
@@ -110,7 +110,21 @@ export const PLAYERS : Player[] = [
         name : "Bex McLaughlin",
         positions : ["Beater", "Keeper", "Chaser", "Seeker"],
         startedPlaying : new Date(2012, 7),
-        photo : "http://placehold.it/200x200",
+        photo : "bex-mclaughlin.jpg",
         info : "Bex is hoping to make Team Scotland their fourth national team."
+    },
+    {
+        name : "Ross Wiseman",
+        positions : ["Chaser", "Seeker"],
+        startedPlaying : new Date(2017, 3),
+        photo : "ross-wiseman.jpg",
+        info : "He has two Lord of the Rings tattoos!"
+    },
+    {
+        name : "Tev Wallace",
+        positions : ["Beater"],
+        startedPlaying : new Date(2016, 8),
+        photo : "tev-wallace.jpg",
+        info : "Loves hugs. Always."
     }
 ];

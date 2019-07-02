@@ -18,7 +18,9 @@ export const ARTICLES : Article[] = [
 
         Captain Tev Wallace said:
 
-        > A quote from Tev Wallace
+        > Captaining in Catalonia was a fantastic experience, seeing everyone
+        work and play together for the first time, and really giving an
+        idea of how much potential we have as a national team.
 
         `,
         author: "Rix Dishington",
@@ -64,7 +66,7 @@ export const ARTICLES : Article[] = [
     {
         id : 3,
         title: "Edinburgh Holyrood Hippogriffs Firsts regain Scottish Cup title",
-        image: "http://placehold.it/500x300",
+        image: "scottish-cup.jpg",
         content: 
         `
         After missing the tournament last season to compete at Hateful Eight in Coventry,
@@ -97,7 +99,8 @@ export const ARTICLES : Article[] = [
         `,
         author: "Rix Dishington",
         date: new Date(2019, 1, 19),
-        tags: ["edinburgh", "glasgow", "st andrews", "stirling", "scottish cup"]
+        tags: ["edinburgh", "glasgow", "st andrews", "stirling", "scottish cup"],
+        photoCredit: "Lisa Dörner"
     },
     {
         id: 4,
