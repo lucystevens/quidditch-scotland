@@ -55,7 +55,7 @@ export class ContactFormComponent implements OnInit {
     this.submitting = true;
 
     grecaptcha.ready(function() {
-      grecaptcha.execute(ctx.sitekey, {action: ctx.mail.getHostName()}).then(function(token) {
+      grecaptcha.execute(ctx.sitekey, {action: ctx.mail.getApplication()}).then(function(token) {
         ctx.email.token = token;
 
         ctx.mail.sendContactForm(ctx.email).subscribe(response => {

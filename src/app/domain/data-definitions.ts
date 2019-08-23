@@ -42,7 +42,7 @@ export class Email {
     subject: string;
     body: string;
 
-    host?: string;
+    application?: string;
     token?: string;
 }
 

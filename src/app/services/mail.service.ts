@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Email, ServerResponse } from '../domain/data-definitions';
+import { name } from '../../../package.json';
 
 @Injectable({
   providedIn: 'root'
@@ -9,20 +10,20 @@ import { Email, ServerResponse } from '../domain/data-definitions';
 export class MailService {
 
   mailerUrl = "https://mailer.lukecmstevens.co.uk";
-  host = "quidditchscotland";
+  application = "quidditchscotland";
 
   constructor(private http: HttpClient) { }
 
   getSiteKey() : Observable<ServerResponse<string>>{
-    return this.http.get<ServerResponse<string>>(this.mailerUrl + "/sitekey/" + this.host);
+    return this.http.get<ServerResponse<string>>(this.mailerUrl + "/sitekey/" + this.application);
   }
 
-  getHostName() : string {
-    return this.host;
+  getApplication() : string {
+    return this.application;
   }
 
   sendContactForm(email : Email) : Observable<ServerResponse<string>> {
-    email.host = this.host;
+    email.application = this.application;
 
     const httpOptions = {
       headers: new HttpHeaders({
