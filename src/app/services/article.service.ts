@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Article } from '../domain/data-definitions';
 import { ARTICLES } from '../domain/articles';
-import { a } from '@angular/core/src/render3';
 
 @Injectable({
   providedIn: 'root'
