@@ -9,21 +9,24 @@ import { name } from '../../../package.json';
 })
 export class MailService {
 
-  mailerUrl = "https://mailer.lukecmstevens.co.uk";
-  application = "quidditchscotland";
+  mailerUrl = "https://mailer.lukestevens.co.uk";
 
   constructor(private http: HttpClient) { }
 
   getSiteKey() : Observable<ServerResponse<string>>{
-    return this.http.get<ServerResponse<string>>(this.mailerUrl + "/sitekey/" + this.application);
+    return this.http.get<ServerResponse<string>>(this.mailerUrl + "/sitekey/" + name);
   }
 
   getApplication() : string {
-    return this.application;
+    return name;
+  }
+
+  getAction() : string {
+    return name.replace(/\W/g, "");
   }
 
   sendContactForm(email : Email) : Observable<ServerResponse<string>> {
-    email.application = this.application;
+    email.application = name;
 
     const httpOptions = {
       headers: new HttpHeaders({
