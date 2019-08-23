@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  @ViewChild('navbarToggler') navbarToggler:ElementRef;
+  @ViewChild('navbarToggler', { static: true }) navbarToggler:ElementRef;
 
   constructor(private router: Router) {}
 

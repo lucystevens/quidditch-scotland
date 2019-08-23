@@ -11,13 +11,13 @@ A website to showcase the achievements of the Scottish National Team and the pro
 - [ ] Add filtering support for tags, text, and dates to news page
 - [ ] Add filtering support for names and positions to the squad page
 - [x] Add lazy loading to news page (only load 5 articles at a time)
-- [ ] Add lazy loading to fixtures page (3 past, 3 upcoming)
+- [x] Add lazy loading to fixtures page (3 past, 3 upcoming)
 - [ ] Add dedicated past and upcoming fixtures pages to see all
 - [ ] Add footage page with footage from team Scotland and scottish teams
 - [ ] Improve search engine optimisation
 - [ ] Add Google Analytics
 - [ ] Include teams played for to player cards
-- [ ] Make the teams in the fixture component more mobile friendly
+- [x] Make the teams in the fixture component more mobile friendly
 
 ## Angular commands
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.

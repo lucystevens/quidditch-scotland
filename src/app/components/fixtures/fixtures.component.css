@@ -29,3 +29,7 @@ header.masthead {
     background-color: #ffffff;
     padding: 0 20px;
 }
+
+p.link {
+    text-align:center;
+}

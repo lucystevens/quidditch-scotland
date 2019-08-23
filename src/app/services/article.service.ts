@@ -32,4 +32,10 @@ export class ArticleService {
   getImageUrl(article: Article): string {
     return article.image.startsWith("http")? article.image : "assets/articles/" + article.image;
   }
+
+  getAllTags(): Set<string> {
+    var tags = new Set<string>();
+    this.getArticles().map(a => a.tags).reduce((a, b) => a.concat(b)).forEach(tag => tags.add(tag));
+    return tags;
+  }
 }

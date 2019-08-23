@@ -21,3 +21,11 @@ div.title{
     position: relative;
     top: 20px;
 }
+
+.tool-bar {
+    margin: 0px;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
