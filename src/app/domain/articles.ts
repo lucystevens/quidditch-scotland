@@ -120,5 +120,31 @@ export const ARTICLES : Article[] = [
         date: new Date(2019, 2, 18),
         tags: ["snow", "open training", "team scotland"],
         photoCredit: "Rebecca Norman"
+    },
+    {
+        id: 5,
+        title: "First Training Of The Season Off To A Flying Start for Team Scotland",
+        image: "first-training.jpg",
+        content:
+        `
+        As freshers began their return to university and the summer heat broke to welcome in the
+        autumn winds, Team Scotland welcomed some new faces and old favourites back into Edinburgh
+        for the first open training weekend of the 19/20 quidditch season at the beginning of
+        September. Numbers were up and spirits were high as the creaking bones and stiff joints
+        of lazy summer days faded with all players bringing their ‘A’ game.<br><br>
+        The standard of attendees was wonderful and incredibly promising for Team Scotland’s upcoming season.
+        We are delighted that based on this training session we have been able to offer up a
+        number of new positions on the training squad and cannot wait to see what these new
+        players are going to bring to the team. Keep an eye out as you may spot a few unfamiliar
+        faces on the pitch this season!<br><br>
+        Don’t worry if you missed this chance to see Team Scotland in action however, as there 
+        will be more open training sessions across Scotland throughout the year in which you 
+        can get an opportunity to play with some of Scotland’s best players. <br><br>
+        You can keep updated with the team’s progress and news over the next season through the Quidditch Scotland 
+        website, and their Facebook page and whether on pitch or on the side lines, we hope to see you soon!
+        `,
+        author: "Lizzie Fenwick",
+        date: new Date(2019, 8, 4),
+        tags: ["open training", "team scotland"]
     }
 ];
