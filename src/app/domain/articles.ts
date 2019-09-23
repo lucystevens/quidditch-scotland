@@ -146,5 +146,62 @@ export const ARTICLES : Article[] = [
         author: "Lizzie Fenwick",
         date: new Date(2019, 8, 4),
         tags: ["open training", "team scotland"]
+    },
+    {
+        id: 6,
+        title: "Introducing: Stirling Dumyat Dragons Quidditch Team",
+        image: "stirling-intro.jpg",
+        content:
+        `
+        Kicking off this season’s Team Introductions is Stirling! The team were established in 2013
+        and after taking a little time to find their rhythm they had a stellar season in 2018,
+        culminating in a 5th place position at Dev Cup 2018 as a joint team with Northumberland’s
+        Northern Ridgebacks. Since then the club has been going from strength to strength.
+        We had a round of rapid-fire questions with their captain, Marco Lombardi, to give you
+        the low-down on the Dumyat Dragons.
+        
+        **Describe your first training session of the year in one word:**<br>
+        *Hope.*
+        
+        **What are you most looking forward to this season?**<br>
+        *Bringing my dragons home with a medal.*
+        
+        **Who is the biggest Harry Potter fan on your team?**<br>
+        *Tough question, but I think this title goes to Donald, who is also president of the wizarding society!*
+        
+        **Which player would be most likely to be turned into a meme?**<br>
+        *Becca for sure, especially after she started a meme challenge with the Grim Reapers.*
+        
+        **How would you describe quidditch to a fresher in three words?**<br>
+        *Chaotic. Funny. Legendary.*
+        
+        **What is your greatest achievement in quidditch?**<br>
+        *Playing a couple of friendly games during the last World Cup.*
+        
+        **What is Stirling’s go-to chant?**<br>
+        *Who are we? STIRLING!*<br>
+        *Where are we from? NOT STIRLING!*<br>
+        *What do we want? WIN! (although this bit changes from game to game)*
+        
+        **Where is the weirdest place you have played quidditch?**<br>
+        *A steep, sloped garden in Siena last month.*
+        
+        **What makes the Stirling Dumyat Dragons special?**<br>
+        *Our priority is to be supportive towards our players and enjoy ourselves. As a small team, we
+        are able to give everyone a lot pitch time and all of these things also brought some players to
+        travel a lot of miles just to play with us. To use a quotation from my favourite show: “Together
+        they are the best crew, the best team a captain could ever hope for”.*
+        
+        **Finally, who are the new players to look out for this season?**<br>
+        *First we have to see if they'll stay, we are optimistic but you never know what time wants to happen.
+        Overall, I think the next friendlies will be the optimal proving ground for our freshers.*
+
+        If you want to see more of Stirling then keep an eye out at this year’s Highlander Cup or, if you
+        cannot wait that long, then head along to one of their training sessions; held at Airthrey
+        Castle every Wednesday at 4-5.30pm and Sunday at 1.30-3.30pm.
+        `,
+        author: "Lizzie Fenwick",
+        date: new Date(2019, 8, 23),
+        tags: ["introducing", "stirling"]
     }
 ];
