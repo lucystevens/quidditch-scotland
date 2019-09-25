@@ -203,5 +203,62 @@ export const ARTICLES : Article[] = [
         author: "Lizzie Fenwick",
         date: new Date(2019, 8, 23),
         tags: ["introducing", "stirling"]
+    },
+    {
+        id: 7,
+        title: "Introducing: St Andrews Snidgets Quidditch Team",
+        image: "st-andrews-intro.jpg",
+        content:
+        `
+        Today we introduce you to the St Andrews Snidgets. The club was founded in 2012 and has been a
+        staple in the Scottish quidditch scene since. As with Stirling, St Andrews performed outstandingly
+        at Dev Cup 2018, earning themselves 3rd place. They also placed 10th in Northern 2018, sending them
+        to BQC in Spring 2019! I caught up with their Captain, Henry Williams to learn more about the team.
+ 
+        **Describe your first training session of the year in one word:**<br>
+        *Chaos*
+
+        **What are you most looking forward to this season?**<br>
+        *Watching players grow. There’s nothing quite like watching someone who couldn’t run with a broom
+        at the start of the season score their first tournament goal, shatter the opposing offence alone
+        with one bludger, or catch their first snitch.*
+
+        **Who is the biggest Harry Potter fan on your team?**<br>
+        *I reckon it’s probably Eleanor*
+
+        **Which player would be most likely to be turned into a meme?**<br>
+        *David "2 cards in 1 minute" Burnett*
+
+        **How would you describe quidditch to a fresher in three words?**<br>
+        *Dodgeball, handball, rugby is our go-to opener.*
+
+        **What is your greatest achievement in quidditch?**<br>
+        *Coming 3rd place in Dev Cup 2018 was incredible*
+
+        **What is Stirling’s go-to chant?**<br>
+        *It’s Gaelic: “Aa vell sheev loo-ah? Ha sheen loo-ah! Aa vell sheev loovore? Ha sheen loovore! Aa vell sheev moh-tan-ach? Ha sheen moh-tan-ach!”*<br>
+        *Or, in English:*<br>
+        *“Are you fast? We are fast! Are you strong? We are strong! Are you fluffy? We are fluffy!”*<br>
+
+        **Where is the weirdest place you have played quidditch?**<br>
+        *We tried indoor quidditch once… never again.*
+
+        **What makes the St Andrews Snidgets special?**<br>
+        *It’s a family*
+
+        **Finally, who are the new players to look out for this season?**<br>
+        *We’ve got some freshers who get that deathstare in their eyes when they pick up a bludger, which is always a
+        good sign. It’s still early in the season, so we’ll see who sticks around.*<br>
+        *Hanna Karstensen joined us halfway through last year and has since skyrocketed from a shy newbie to the safest hands on the team.*
+         
+        If you want to see St Andrews play in the flesh, then head over to North Haugh on Saturday September 28th as they host the
+        annual Edinburgh vs St Andrews Fresher Friendlies. If a one-off isn’t enough for you, however, you can catch them at
+        North Haugh from 2-4pm every Wednesday, and 1.30-4.30 every Saturday!
+        
+        `,
+        author: "Lizzie Fenwick",
+        date: new Date(2019, 8, 25),
+        tags: ["introducing", "st-andrews"],
+        photoCredit: "Lisa Dörner"
     }
 ];
