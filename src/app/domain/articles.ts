@@ -235,7 +235,7 @@ export const ARTICLES : Article[] = [
         **What is your greatest achievement in quidditch?**<br>
         *Coming 3rd place in Dev Cup 2018 was incredible*
 
-        **What is Stirling’s go-to chant?**<br>
+        **What is St. Andrews’s go-to chant?**<br>
         *It’s Gaelic: “Aa vell sheev loo-ah? Ha sheen loo-ah! Aa vell sheev loovore? Ha sheen loovore! Aa vell sheev moh-tan-ach? Ha sheen moh-tan-ach!”*<br>
         *Or, in English:*<br>
         *“Are you fast? We are fast! Are you strong? We are strong! Are you fluffy? We are fluffy!”*<br>
