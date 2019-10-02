@@ -33,6 +33,7 @@ export class Video {
 }
 
 export class Config {
+    siteName: string;
     contactEmail: string;
 }
 
@@ -50,4 +51,12 @@ export class ServerResponse<T> {
     success: boolean;
     errors?: string[];
     data?: T;
+}
+
+export class SeoConfig {
+    title: string;
+    description: string;
+    image:  string;
+    slug:  string;
+    type: string;
 }
