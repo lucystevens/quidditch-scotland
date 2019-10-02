@@ -307,7 +307,7 @@ export const ARTICLES : Article[] = [
         and if you are feeling particularly adventurous you can join them for their fitness sessions on Fridays from 5-7pm!
         `,
         author: "Lizzie Fenwick",
-        date: new Date(2019, 9, 02),
+        date: new Date(2019, 9, 2),
         tags: ["introducing", "glasgow"]
     }
 ];
