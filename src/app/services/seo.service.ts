@@ -14,7 +14,7 @@ export class SeoService {
       this.meta.updateTag({ name: 'twitter:title', content: config.title });
       this.meta.updateTag({ name: 'twitter:description', content: config.description });
       this.meta.updateTag({ name: 'twitter:image', content: config.image });
-      this.meta.updateTag({ property: 'og:type', content: 'article' });
+      this.meta.updateTag({ property: 'og:type', content: config.type });
       this.meta.updateTag({ property: 'og:site_name', content: CONFIG.siteName });
       this.meta.updateTag({ property: 'og:title', content: config.title });
       this.meta.updateTag({ property: 'og:description', content: config.description });
