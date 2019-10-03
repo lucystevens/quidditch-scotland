@@ -18,11 +18,19 @@ export class ArticleService {
   }
 
   /**
-   * Gets the article with the given id
-   * @param id The id of the article to retrieve
+   * Gets the article with the given id or name
+   * @param id The id or name of the article to retrieve
    */
-  getArticle(id: number): Article {
-    return ARTICLES.find(article => article.id === id);
+  getArticle(id: string): Article {
+    // If id is number
+    if(RegExp("^\\d+$").test(id)){
+      let idNum = Number(id);
+      return ARTICLES.find(article => article.id === idNum);
+    }
+    else {
+      return ARTICLES.find(article => article.name === id);
+    }
+
   }
 
   /**

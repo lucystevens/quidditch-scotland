@@ -3,6 +3,7 @@ import { Article } from "./data-definitions";
 export const ARTICLES : Article[] = [
     {
         id : 1,
+        name: "scottish-quidditch-debut",
         title: "Scottish quidditch makes international debut",
         image: "debut.jpg",
         content:
@@ -31,6 +32,7 @@ export const ARTICLES : Article[] = [
     },
     {
         id : 2,
+        name: "glasgow-qualify-for-eqc",
         title: "Glasgow Grim Reapers Qualify for European Quidditch Cup",
         image: "eqt.jpg",
         content:
@@ -65,6 +67,7 @@ export const ARTICLES : Article[] = [
     },
     {
         id : 3,
+        name: "edinburgh-win-scottish-cup-v",
         title: "Edinburgh Holyrood Hippogriffs Firsts regain Scottish Cup title",
         image: "scottish-cup.jpg",
         content:
@@ -104,6 +107,7 @@ export const ARTICLES : Article[] = [
     },
     {
         id: 4,
+        name: "team-scotland-snow-training",
         title: "Team Scotland is ready for any weather",
         image: "snow.jpg",
         content:
@@ -123,6 +127,7 @@ export const ARTICLES : Article[] = [
     },
     {
         id: 5,
+        name: "first-training-19-20",
         title: "First Training Of The Season Off To A Flying Start for Team Scotland",
         image: "first-training.jpg",
         content:
@@ -149,6 +154,7 @@ export const ARTICLES : Article[] = [
     },
     {
         id: 6,
+        name: "stirling-intro",
         title: "Introducing: Stirling Dumyat Dragons Quidditch Team",
         image: "stirling-intro.jpg",
         content:
@@ -206,6 +212,7 @@ export const ARTICLES : Article[] = [
     },
     {
         id: 7,
+        name: "st-andrews-intro",
         title: "Introducing: St Andrews Snidgets Quidditch Team",
         image: "st-andrews-intro.jpg",
         content:
@@ -263,6 +270,7 @@ export const ARTICLES : Article[] = [
     },
     {
         id: 8,
+        name: "glasgow-intro",
         title: "Introducing: Glasgow Grim Reapers",
         image: "glasgow-intro.jpg",
         content:

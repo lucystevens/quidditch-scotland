@@ -1,11 +1,14 @@
 export class Article {
     id: number;
+    name: string;
     title: string;
     image: string;
     content: string;
     author: string;
     date: Date;
     tags: string[];
+
+    seoConfig?: SeoConfig;
 
     photoCredit?: string;
     creditLink?: string;
