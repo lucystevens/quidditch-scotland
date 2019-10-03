@@ -8,8 +8,6 @@ export class Article {
     date: Date;
     tags: string[];
 
-    seoConfig?: SeoConfig;
-
     photoCredit?: string;
     creditLink?: string;
 }
@@ -62,4 +60,5 @@ export class SeoConfig {
     image:  string;
     slug:  string;
     type: string;
+    additionalKeywords: string[] = []
 }

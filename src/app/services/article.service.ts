@@ -41,6 +41,24 @@ export class ArticleService {
     return article.image.startsWith("http")? article.image : "assets/articles/" + article.image;
   }
 
+  getSeoDescription(article: Article): string {
+    // Remove additional whitespace and use regex to naively remove markdown
+    let sentences = article.content.replace(RegExp("\\s+", "g"), " ")
+                                     .replace(RegExp("([^0])\\*+", "g"), "$1")
+                                     .replace(RegExp("<(b|h)r>", "g"), "")
+                                     .replace(RegExp("(=|-|_|~|`)+", "g"), "")
+                                     .replace(RegExp("(#+|>) ?", "g"), "")
+                                     .split(".");
+
+    let description = '';
+    let index = 0;
+    while(description.length < 100 && sentences.length > index){
+      description += sentences[index++] + ".";
+    }
+    console.log(description.trim())
+    return description.trim();
+  }
+
   getAllTags(): Set<string> {
     var tags = new Set<string>();
     this.getArticles().map(a => a.tags).reduce((a, b) => a.concat(b)).forEach(tag => tags.add(tag));
