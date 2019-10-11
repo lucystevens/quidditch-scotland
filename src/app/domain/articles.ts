@@ -317,5 +317,72 @@ export const ARTICLES : Article[] = [
         author: "Lizzie Fenwick",
         date: new Date(2019, 9, 2),
         tags: ["introducing", "glasgow"]
+    },
+    {
+      id: 8,
+      name: "edinburgh-intro",
+      title: "Introducing: Edinburgh Holyrood Hippogriffs Quidditch Club",
+      image: "edinburgh-intro.jpg",
+      content:
+      `
+      Situated in the city where the concept of quidditch was born, Edinburgh’s Holyrood Hippogriffs have had to work harder than most to establish themselves
+      as a force to be reckoned with in UK quidditch. The club is the largest in Scotland, training both a Firsts and Seconds team. Over the last season the
+      Hippogriffs dominated Highlander and Northern, with the Firsts winning Highlander and placing 3rd at Northern and the Seconds successfully qualifying for BQC.
+      I caught up with the two team captains, Gary Cassidy and Shaun Goodfellow to complete our 2019/2020 season “Introducing” series.
+
+      **Describe your first training session of the year in one word:**<br>
+      Both: *Busy*
+
+      **What are you most looking forward to this season?**<br>
+      Gary: *Continuing on our great season last year, to hopefully get Edinburgh Firsts to EQC for the first time.*<br>
+      Shaun: *Getting to know the freshers and getting them into the spirit of second team.
+      It will be interesting to see if I'm any good at this leadership thing, even if I delegate most of the shouting to Hannah*
+
+      **Who is the biggest Harry Potter fan on your team?**<br>
+      Shaun: *There are a few, but I’d have to say Stefan*<br>
+      Gary: *Probably James Riches*
+
+      **Which player would be most likely to be turned into a meme?**<br>
+      Gary: *Jack Murray was used a meme in his first year of quidditch because of this picture*<br>
+      ![]()
+      *Photo credit: Claire Purslow*
+
+      Shaun: *For us it is definitely Aidan, who is also a veteran of several club memes.*
+
+      **How would you describe quidditch to a fresher in three words?**<br>
+      Gary: *Fast-paced, mixed-gender, full-contact*<br>
+      Shaun: *Unique, chaotic, fun*
+
+      **What is your greatest achievement in quidditch?**<br>
+      Shaun: *Qualifying for BQC the last two years and winning some games there. Showing everyone that, even though we are a second team, we can go toe to toe
+      with the big boys.*<br>
+      Gary: *That is tough, probably coming first at Highlander VI or third at Northern 2018!*
+
+      **What is your go-to chant?**<br>
+      Shaun: *Second Team! Best Team!*<br>
+      Gary: *I guess it is probably sportsball!*
+
+      **Where is the weirdest place you have played quidditch?** <br>
+      Shaun: *Probably barefoot on the beach in St Andrews. Maybe not that weird, but it's the only place I've managed to get sunburn on my feet.*<br>
+      Gary: *A muddy field in Barcelona for the Scottish National Team’s debut match against Catalonia.*
+
+      **What makes the Hippogriffs special?**<br>
+      Gary: *What makes us special is that we all share the same vision of success and we all push each other to be the best players that we can be.*<br>
+      Shaun: *We are fortunate to be part of a large club, which means we can focus our team on player development and equal play time. We can ensure that everybody
+      is included and feels like part of the team.*
+
+      **Finally, who are the new players to look out for this season?** <br>
+      Gary: *We’ve managed to pick up quite a few new players but we’ll need to wait and see if they stick around. We’ve managed to get some transfers from a couple of
+      other teams so keep an eye out for some familiar faces in Edinburgh kit this year!*<br>
+      Shaun: *We've only had a handful of trainings with our new players so far, so can't predict who will really shine this season, but the team is improving with every
+      training session, so who knows what heights our freshers could reach?*
+
+      Edinburgh’s Holyrood Hippogriffs practice every Wednesday at 2pom and every Saturday at 12pm at Middle Meadow Walk and this coming weekend will be looking to
+      defend their title at Highlander Cup VII at Inverleith Park.
+      `,
+      author: "Lizzie Fenwick",
+      date: new Date(2019, 9, 8),
+      tags: ["introducing", "edinburgh"],
+      photoCredit: "Mark Hill Imagemaker"
     }
 ];
