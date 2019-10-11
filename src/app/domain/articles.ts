@@ -344,7 +344,9 @@ export const ARTICLES : Article[] = [
 
       **Which player would be most likely to be turned into a meme?**<br>
       Gary: *Jack Murray was used a meme in his first year of quidditch because of this picture*<br>
-      ![]()
+      
+      
+      ![Jack Murray is a meme](/assets/images/jack-murray-meme.jpg)<br>
       *Photo credit: Claire Purslow*
 
       Shaun: *For us it is definitely Aidan, who is also a veteran of several club memes.*
