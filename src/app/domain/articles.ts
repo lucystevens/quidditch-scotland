@@ -319,7 +319,7 @@ export const ARTICLES : Article[] = [
         tags: ["introducing", "glasgow"]
     },
     {
-      id: 8,
+      id: 9,
       name: "edinburgh-intro",
       title: "Introducing: Edinburgh Holyrood Hippogriffs Quidditch Club",
       image: "edinburgh-intro.jpg",
@@ -344,8 +344,8 @@ export const ARTICLES : Article[] = [
 
       **Which player would be most likely to be turned into a meme?**<br>
       Gary: *Jack Murray was used a meme in his first year of quidditch because of this picture*<br>
-      
-      
+
+
       ![Jack Murray is a meme](/assets/images/jack-murray-meme.jpg)<br>
       *Photo credit: Claire Purslow*
 
@@ -386,5 +386,66 @@ export const ARTICLES : Article[] = [
       date: new Date(2019, 9, 8),
       tags: ["introducing", "edinburgh"],
       photoCredit: "Mark Hill Imagemaker"
+    },
+    {
+      id: 10,
+      name: "highlander-vii",
+      title: "Holyrood Hippogriffs might have lost their title, but Highlander is still a bastion of Scottish quidditch.",
+      image: "highlander-hippogriffs.jpg",
+      content:
+      `
+      This weekend saw the UK’s longest standing quidditch tournament return to Edinburgh as Highlander VII played itself out on the
+      well-worn grounds of Inverleith Park. There were nine teams in attendance over the two days of the tournament, including the
+      Liverpuddly Cannons, Kiel Kelpies and London Unspeakables and Unstoppables. The final podium saw London Unspeakables taking the
+      top prize, with the Liverpuddly Cannons in second and Holyrood Hippogriff Firsts holding on to a medal position with third.
+      As the last remaining Scottish team in the tournament by the time the third-place play-offs came around, Quidditch Scotland went
+      along to report on the match.
+
+      Having won the last two consecutive tournaments, all eyes were on Holyrood Hippogriffs Firsts as the defending champions when
+      they entered the third-place play off. Tensions were high as Head Referee Eamonn Harrison called brooms-up and only got higher as
+      there was an immediate brooms-down due to a false start from London Unstoppables. Once game play was underway however, Edinburgh
+      were machine-like in their efficiency, maintaining quaffle control with apparent ease. Edinburgh’s keeper game was particularly
+      strong during the match, defending against Unstoppables despite the London team having bludger control for significant portion
+      of the game and at one point without a single Edinburgh beater on pitch. The Edinburgh sub box was more of a party than a centre
+      of tactical strategy, spurred on by Jack Murray’s hype playlist and yet the team were playing more coherently than they have for
+      months. Their play was clean and well executed and the team were operating as a well-oiled unit.
+
+      By the time the snitch was released, the scoreboard read 120/20 to Edinburgh and the rain was coming down in sheets. If anything
+      however, this appeared to incentivise Edinburgh further, as excitement rippled on and off pitch as seekers got in position to make
+      their way onto pitch. Once seekers were on pitch, the game seemed to move at double speed, the rain blurring play for spectators.
+      Edinburgh played a three-person seeker team of Kieran Newton, Peter Lawrence and Trym Raddum Berge. Each with their own
+      strengths, the Edinburgh seeker team was a forced to be reckoned with and four minutes after seekers were released it was Head
+      Coach Kieran Newton whose first (and only) snitch catch was so clear it took less than a minute for the referee team to call
+      time and announce Edinburgh as match winners. Although the team did not have the opportunity to retain their first place title
+      they were able to hold their heads high as they received their bronze medals.
+
+      Quidditch Scotland was out in force over the course of the weekend, with Stirling, St Andrews, Glasgow and Edinburgh all present
+      and bringing their best games forward. Speaking at the end of the tournament, each team had a number of highlights that they took
+      away from the weekend. Stirling were able to introduce some of their freshers to the world of competitive tournaments, with new
+      players managing to score in every on of Stirling’s games. For St Andrews, this year’s tournament “was lit” according to team
+      captain Henry Williams, who proudly informed me that the tournament had seen the first ever competitive goals for two of their
+      players. Glasgow faced a difficult weekend with only twelve players on day one and nine on day two, yet they manged to max-out quaffle point
+      differences in several games, even with some of their players having been playing for less than a month. Holyrood Hippogriffs
+      Seconds also had a brilliant weekend, coming up from eleventh place last year to fifth place at Highlander VII,
+
+      Every team commented on the wonderful atmosphere around the tournament and the impressive quality of the pitches (which anyone
+      who attended and remembers BQC 2015 at Wollaton Park will understand the importance of). Highlander remains a highlight in the
+      Scottish quidditch calendar and continues to be a welcoming first tournament for freshers while still being competitive and
+      well-organised enough to continue to appeal to the tournament’s patrons.
+
+      A special mention should be made for Yanna Colmeraurer, Sara Morris, Nicolás Casillas del Val and Gary Cassidy who were this
+      year’s Tournament Directors. In spite of unpredictable weather, and injuries that complicated the referee numbers, the tournament
+      was a resounding success and the high expectations of the UK’s oldest tournament have been met once again, notching the bar ever
+      so slightly higher for future Tournament Directors.
+
+      For Quidditch Scotland, the next event to be held is Team Scotland open training on the 2nd of November. For those of you that
+      may wish to participate (or for those who would rather sit and spectate) the training will be held at The Meadows in Edinburgh, hosted
+      by Holyrood Hippogriffs
+                      `,
+      author: "Lizzie Fenwick",
+      date: new Date(2019, 9, 15),
+      tags: ["highlander", "edinburgh", "glasgow", "stirling", "st andrews"],
+      photoCredit: "Lizzie Fenwick"
+
     }
 ];
