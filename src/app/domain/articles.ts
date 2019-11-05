@@ -446,6 +446,64 @@ export const ARTICLES : Article[] = [
       date: new Date(2019, 9, 15),
       tags: ["highlander", "edinburgh", "glasgow", "stirling", "st andrews"],
       photoCredit: "Lizzie Fenwick"
+    },
+    {
+        id: 11,
+        name: "admin-team",
+        title: "Who's who in Quidditch Scotland",
+        image: "admin-team.jpg",
+        content:
+        `
+        After weather seemed determined to interfere with last weekend’s Team Scotland training in
+        Edinburgh, it is understandable that some people feel that they have been duped out of time with
+        their new favourite national team. To soothe the masses of our saddened fans we offer you this
+        humble article introducing this seasons Administrative Team!
 
-    }
+        Kieran Newton is first up to the podium. Newton has taken on the role of Partnerships Manager this
+        year and has a lot of drive to promote the club over the next season. He hopes to help boost
+        Scotland’s presence in quidditch and secure a sponsorship for the team from a company that
+        represents the values of Quidditch Scotland. When asked what he is looking forward to over this
+        coming season he replied "working alongside the administration team and helping improve upon the
+        foundations already laid".
+
+        Acting as this seasons Club Liason Manager, Rebecca Norman is a cheerful and level-headed addition
+        to the Administrative Team. She will be using her position within Quidditch Scotland to support and
+        grow the existing Scottish clubs, and ensuring that they receive national support for their goals and
+        projects this season. She is looking forward to "seeing the team compete more internationally and
+        gain the deserved recognition for our national pool of talent!"
+
+        In the days of social media and online influencers, no administrative team would be complete
+        without a strong Social Media Coordinator, and ours goes by the name of Hannah Glover. She is
+        looking forward to showing the world what Scotland is really made of and works hard to ensure our
+        social media does just this. The position is not for the fainthearted, as the Social Media Coordinator
+        often acts as the first contact between the club and the general public, but Glover fulfils the role
+        with class and a necessary patience (required as certain members of the administrative team have a
+        habit of posting articles to the website late in the evening).
+
+        Which leads us to myself. You may have seen my name under the author tag of many a Quidditch
+        Scotland article, but let me formally introduce myself to you. I am Lizzie Fenwick and this year I am
+        Quidditch Scotland’s resident copywriter. My main hope for this year is to give local Scottish teams,
+        as well as the national team, regular coverage and the opportunity to advertise themselves through
+        a different medium. If you have a story, contact Quidditch Scotland and let me know, otherwise I
+        look forward to meeting many of you on the side-lines of tournaments to get a quote or a snapshot!
+
+        Finally, the person with their fingers in all the pies this season, is Team Manager, Luke Stevens.
+        Entering their sixth season of quidditch, they have held many positions across the committees of
+        several clubs and it seems fitting that they should have been unanimously chosen as Quidditch
+        Scotland’s Manager for the next year. In a short interview, Luke outlined their plans for the coming
+        season;
+        > "Building on our successes from European Games, I hope to carry the team to further
+        international tournaments. I’d like to increase Quidditch Scotland’s presence as a cohesive brand
+        and use that to further improve the experience of players in Scotland"
+
+        Luke’s quidditch background is both long and impressive. From playing in EQC for two consecutive
+        years to being a tournament director for *Christmas Cup* to being the mastermind behind *Tea Cup*,
+        Luke’s experience speaks for itself and we at Quidditch Scotland cannot wait to see what they do
+        over the next twelve months!
+        `,
+        author: "Lizzie Fenwick",
+        date: new Date(2019, 10, 5),
+        tags: ["quidditch", "scotland", "admin"],
+        photoCredit: "Lizzie Fenwick"
+      }
 ];
