@@ -44,13 +44,6 @@ export const PLAYERS : Player[] = [
         info : "She spends a lot of time on youtube watching videos of people building their own tiny eco-friendly homes."
     },
     {
-        name : "Guillermo Parra",
-        positions : ["Keeper", "Chaser"],
-        startedPlaying : new Date(2018, 8),
-        photo : "guillermo-parra.jpg",
-        info : "A Spaniard who discovered quidditch in Scottish lands. He also plays basketball, so dunks and alley-oops come out naturally for him."
-    },
-    {
         name : "Hannah Glover",
         positions : ["Chaser"],
         startedPlaying : new Date(2016, 8),
@@ -107,24 +100,10 @@ export const PLAYERS : Player[] = [
         info : "He's not Gary Cassidy."
     },
     {
-        name : "Bex McLaughlin",
-        positions : ["Beater", "Keeper", "Chaser", "Seeker"],
-        startedPlaying : new Date(2012, 7),
-        photo : "bex-mclaughlin.jpg",
-        info : "Bex is hoping to make Team Scotland their fourth national team."
-    },
-    {
         name : "Ross Wiseman",
         positions : ["Chaser", "Seeker"],
         startedPlaying : new Date(2017, 3),
         photo : "ross-wiseman.jpg",
         info : "He has two Lord of the Rings tattoos!"
-    },
-    {
-        name : "Tev Wallace",
-        positions : ["Beater"],
-        startedPlaying : new Date(2016, 8),
-        photo : "tev-wallace.jpg",
-        info : "Loves hugs. Always."
     }
 ];
